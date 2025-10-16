@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee information</title>
+    
+   
+</head>
+<style>
+    form{
+        background-color: rgb(9, 151, 180);
+    }
+    body
+    {
+        background-color: rgb(224, 6, 6);
+    }
+    label
+    {
+        color: rgb(98, 37, 4);
+    }
+    ::placeholder
+    {
+        color: rgb(0, 4, 255);
+        opacity: 0.5;
+    }
+    input[type=text]
+    {
+        width: 120px;
+        padding: 1px;
+        margin: 1px 0;
+    }
+</style>
+<body>
+    <form action="" method="post">
+        <fieldset>
+    <legend>Employee Infromation</legend>
+    <label for="fname">First Name:</label>
+    <input type="text" placeholder="Enter First Name"><br>
+    <label for="lname">Last Name:</label>
+    <input type="text" placeholder="Enter Second Name"><br>
+    <label for="Employee id">Employee ID</label>
+    <input type="number" placeholder="Enter your ID number"><br>
+    <label for="D.O.B">D.O.B:</label>
+    <input type="date"><br>
+    <label for="Gender">Gender:</label>
+    <input type="radio" name="Gender" value="Male">Male
+    <input type="radio" name="Gender" value="Female">Female 
+    <input type="radio" name="Gender" value="Non-Binary">Non-Binary <br>
+    <label for="phonenumber">Phone Number</label>
+    <input type="number" placeholder="Enter your Number"><br>
+    <label for="email">Email:</label>
+    <input type="email"><br>
+    <label for="Language">Language:</label>
+    <input type="checkbox" name="Language" value="Tamil">Tamil
+    <input type="checkbox" name="Language" value="English">English
+    <input type="checkbox" name="Language" value="Hindi">Hindi <br>
+    <br>
+    <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+</body>
+</html>
