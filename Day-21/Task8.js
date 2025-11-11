@@ -1,0 +1,14 @@
+
+//Build a 2D array of names and marks — print each student's data.
+const students = [
+  ["Rajesh", 85],
+  ["Dhanush", 72],
+  ["Kavibalan", 90],
+  ["Aarthi", 77],
+  ["kishore",87]
+];
+for (let i = 0; i < students.length; i++) {
+  const name = students[i][0]; 
+  const marks = students[i][1]; 
+  console.log("name: " , name+   ", marks: ", marks);
+}
